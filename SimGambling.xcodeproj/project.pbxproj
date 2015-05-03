@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893040C41A94DD6300F3BBAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 893040C31A94DD6300F3BBAA /* AppDelegate.m */; };
+		893040C61A94DD6300F3BBAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 893040C51A94DD6300F3BBAA /* main.m */; };
+		893040C91A94DD6300F3BBAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893040C81A94DD6300F3BBAA /* ViewController.m */; };
+		893040CB1A94DD6300F3BBAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893040CA1A94DD6300F3BBAA /* Images.xcassets */; };
+		893040CE1A94DD6300F3BBAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893040CC1A94DD6300F3BBAA /* Main.storyboard */; };
+		893040DA1A94DD6300F3BBAA /* SimGamblingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 893040D91A94DD6300F3BBAA /* SimGamblingTests.m */; };
+		89A5949D1A98B7C5002C1D97 /* NSBezierPath+CGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A594801A98B7C5002C1D97 /* NSBezierPath+CGPath.m */; };
+		89A5949E1A98B7C5002C1D97 /* PNBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A594821A98B7C5002C1D97 /* PNBar.m */; };
+		89A5949F1A98B7C5002C1D97 /* PNBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A594841A98B7C5002C1D97 /* PNBarChart.m */; };
+		89A594A01A98B7C5002C1D97 /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A594881A98B7C5002C1D97 /* PNChartLabel.m */; };
+		89A594A11A98B7C5002C1D97 /* PNCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A5948A1A98B7C5002C1D97 /* PNCircleChart.m */; };
+		89A594A21A98B7C5002C1D97 /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A5948C1A98B7C5002C1D97 /* PNColor.m */; };
+		89A594A31A98B7C5002C1D97 /* PNLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A5948E1A98B7C5002C1D97 /* PNLineChart.m */; };
+		89A594A41A98B7C5002C1D97 /* PNLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A594901A98B7C5002C1D97 /* PNLineChartData.m */; };
+		89A594A51A98B7C5002C1D97 /* PNLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A594921A98B7C5002C1D97 /* PNLineChartDataItem.m */; };
+		89A594A61A98B7C5002C1D97 /* PNPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A594941A98B7C5002C1D97 /* PNPieChart.m */; };
+		89A594A71A98B7C5002C1D97 /* PNPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A594961A98B7C5002C1D97 /* PNPieChartDataItem.m */; };
+		89A594A81A98B7C5002C1D97 /* PNScatterChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A594981A98B7C5002C1D97 /* PNScatterChart.m */; };
+		89A594A91A98B7C5002C1D97 /* PNScatterChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A5949A1A98B7C5002C1D97 /* PNScatterChartData.m */; };
+		89A594AA1A98B7C5002C1D97 /* PNScatterChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A5949C1A98B7C5002C1D97 /* PNScatterChartDataItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		893040D41A94DD6300F3BBAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 893040B51A94DD6300F3BBAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893040BC1A94DD6300F3BBAA;
+			remoteInfo = SimGambling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		893040BD1A94DD6300F3BBAA /* SimGambling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimGambling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893040C11A94DD6300F3BBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893040C21A94DD6300F3BBAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		893040C31A94DD6300F3BBAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		893040C51A94DD6300F3BBAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		893040C71A94DD6300F3BBAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		893040C81A94DD6300F3BBAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		893040CA1A94DD6300F3BBAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		893040CD1A94DD6300F3BBAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893040D31A94DD6300F3BBAA /* SimGamblingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimGamblingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		893040D81A94DD6300F3BBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893040D91A94DD6300F3BBAA /* SimGamblingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimGamblingTests.m; sourceTree = "<group>"; };
+		89A5947F1A98B7C5002C1D97 /* NSBezierPath+CGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+CGPath.h"; sourceTree = "<group>"; };
+		89A594801A98B7C5002C1D97 /* NSBezierPath+CGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+CGPath.m"; sourceTree = "<group>"; };
+		89A594811A98B7C5002C1D97 /* PNBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBar.h; sourceTree = "<group>"; };
+		89A594821A98B7C5002C1D97 /* PNBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBar.m; sourceTree = "<group>"; };
+		89A594831A98B7C5002C1D97 /* PNBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBarChart.h; sourceTree = "<group>"; };
+		89A594841A98B7C5002C1D97 /* PNBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBarChart.m; sourceTree = "<group>"; };
+		89A594851A98B7C5002C1D97 /* PNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
+		89A594861A98B7C5002C1D97 /* PNChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartDelegate.h; sourceTree = "<group>"; };
+		89A594871A98B7C5002C1D97 /* PNChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartLabel.h; sourceTree = "<group>"; };
+		89A594881A98B7C5002C1D97 /* PNChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChartLabel.m; sourceTree = "<group>"; };
+		89A594891A98B7C5002C1D97 /* PNCircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNCircleChart.h; sourceTree = "<group>"; };
+		89A5948A1A98B7C5002C1D97 /* PNCircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNCircleChart.m; sourceTree = "<group>"; };
+		89A5948B1A98B7C5002C1D97 /* PNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNColor.h; sourceTree = "<group>"; };
+		89A5948C1A98B7C5002C1D97 /* PNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNColor.m; sourceTree = "<group>"; };
+		89A5948D1A98B7C5002C1D97 /* PNLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChart.h; sourceTree = "<group>"; };
+		89A5948E1A98B7C5002C1D97 /* PNLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChart.m; sourceTree = "<group>"; };
+		89A5948F1A98B7C5002C1D97 /* PNLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartData.h; sourceTree = "<group>"; };
+		89A594901A98B7C5002C1D97 /* PNLineChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartData.m; sourceTree = "<group>"; };
+		89A594911A98B7C5002C1D97 /* PNLineChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartDataItem.h; sourceTree = "<group>"; };
+		89A594921A98B7C5002C1D97 /* PNLineChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartDataItem.m; sourceTree = "<group>"; };
+		89A594931A98B7C5002C1D97 /* PNPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChart.h; sourceTree = "<group>"; };
+		89A594941A98B7C5002C1D97 /* PNPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChart.m; sourceTree = "<group>"; };
+		89A594951A98B7C5002C1D97 /* PNPieChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChartDataItem.h; sourceTree = "<group>"; };
+		89A594961A98B7C5002C1D97 /* PNPieChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChartDataItem.m; sourceTree = "<group>"; };
+		89A594971A98B7C5002C1D97 /* PNScatterChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChart.h; sourceTree = "<group>"; };
+		89A594981A98B7C5002C1D97 /* PNScatterChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChart.m; sourceTree = "<group>"; };
+		89A594991A98B7C5002C1D97 /* PNScatterChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartData.h; sourceTree = "<group>"; };
+		89A5949A1A98B7C5002C1D97 /* PNScatterChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartData.m; sourceTree = "<group>"; };
+		89A5949B1A98B7C5002C1D97 /* PNScatterChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartDataItem.h; sourceTree = "<group>"; };
+		89A5949C1A98B7C5002C1D97 /* PNScatterChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartDataItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893040BA1A94DD6300F3BBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893040D01A94DD6300F3BBAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893040B41A94DD6300F3BBAA = {
+			isa = PBXGroup;
+			children = (
+				893040BF1A94DD6300F3BBAA /* SimGambling */,
+				893040D61A94DD6300F3BBAA /* SimGamblingTests */,
+				893040BE1A94DD6300F3BBAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		893040BE1A94DD6300F3BBAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893040BD1A94DD6300F3BBAA /* SimGambling.app */,
+				893040D31A94DD6300F3BBAA /* SimGamblingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893040BF1A94DD6300F3BBAA /* SimGambling */ = {
+			isa = PBXGroup;
+			children = (
+				89A5947E1A98B7C5002C1D97 /* PNChart */,
+				893040C21A94DD6300F3BBAA /* AppDelegate.h */,
+				893040C31A94DD6300F3BBAA /* AppDelegate.m */,
+				893040C71A94DD6300F3BBAA /* ViewController.h */,
+				893040C81A94DD6300F3BBAA /* ViewController.m */,
+				893040CA1A94DD6300F3BBAA /* Images.xcassets */,
+				893040CC1A94DD6300F3BBAA /* Main.storyboard */,
+				893040C01A94DD6300F3BBAA /* Supporting Files */,
+			);
+			path = SimGambling;
+			sourceTree = "<group>";
+		};
+		893040C01A94DD6300F3BBAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				893040C11A94DD6300F3BBAA /* Info.plist */,
+				893040C51A94DD6300F3BBAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		893040D61A94DD6300F3BBAA /* SimGamblingTests */ = {
+			isa = PBXGroup;
+			children = (
+				893040D91A94DD6300F3BBAA /* SimGamblingTests.m */,
+				893040D71A94DD6300F3BBAA /* Supporting Files */,
+			);
+			path = SimGamblingTests;
+			sourceTree = "<group>";
+		};
+		893040D71A94DD6300F3BBAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				893040D81A94DD6300F3BBAA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89A5947E1A98B7C5002C1D97 /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				89A5947F1A98B7C5002C1D97 /* NSBezierPath+CGPath.h */,
+				89A594801A98B7C5002C1D97 /* NSBezierPath+CGPath.m */,
+				89A594811A98B7C5002C1D97 /* PNBar.h */,
+				89A594821A98B7C5002C1D97 /* PNBar.m */,
+				89A594831A98B7C5002C1D97 /* PNBarChart.h */,
+				89A594841A98B7C5002C1D97 /* PNBarChart.m */,
+				89A594851A98B7C5002C1D97 /* PNChart.h */,
+				89A594861A98B7C5002C1D97 /* PNChartDelegate.h */,
+				89A594871A98B7C5002C1D97 /* PNChartLabel.h */,
+				89A594881A98B7C5002C1D97 /* PNChartLabel.m */,
+				89A594891A98B7C5002C1D97 /* PNCircleChart.h */,
+				89A5948A1A98B7C5002C1D97 /* PNCircleChart.m */,
+				89A5948B1A98B7C5002C1D97 /* PNColor.h */,
+				89A5948C1A98B7C5002C1D97 /* PNColor.m */,
+				89A5948D1A98B7C5002C1D97 /* PNLineChart.h */,
+				89A5948E1A98B7C5002C1D97 /* PNLineChart.m */,
+				89A5948F1A98B7C5002C1D97 /* PNLineChartData.h */,
+				89A594901A98B7C5002C1D97 /* PNLineChartData.m */,
+				89A594911A98B7C5002C1D97 /* PNLineChartDataItem.h */,
+				89A594921A98B7C5002C1D97 /* PNLineChartDataItem.m */,
+				89A594931A98B7C5002C1D97 /* PNPieChart.h */,
+				89A594941A98B7C5002C1D97 /* PNPieChart.m */,
+				89A594951A98B7C5002C1D97 /* PNPieChartDataItem.h */,
+				89A594961A98B7C5002C1D97 /* PNPieChartDataItem.m */,
+				89A594971A98B7C5002C1D97 /* PNScatterChart.h */,
+				89A594981A98B7C5002C1D97 /* PNScatterChart.m */,
+				89A594991A98B7C5002C1D97 /* PNScatterChartData.h */,
+				89A5949A1A98B7C5002C1D97 /* PNScatterChartData.m */,
+				89A5949B1A98B7C5002C1D97 /* PNScatterChartDataItem.h */,
+				89A5949C1A98B7C5002C1D97 /* PNScatterChartDataItem.m */,
+			);
+			path = PNChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893040BC1A94DD6300F3BBAA /* SimGambling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893040DD1A94DD6300F3BBAA /* Build configuration list for PBXNativeTarget "SimGambling" */;
+			buildPhases = (
+				893040B91A94DD6300F3BBAA /* Sources */,
+				893040BA1A94DD6300F3BBAA /* Frameworks */,
+				893040BB1A94DD6300F3BBAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimGambling;
+			productName = SimGambling;
+			productReference = 893040BD1A94DD6300F3BBAA /* SimGambling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		893040D21A94DD6300F3BBAA /* SimGamblingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893040E01A94DD6300F3BBAA /* Build configuration list for PBXNativeTarget "SimGamblingTests" */;
+			buildPhases = (
+				893040CF1A94DD6300F3BBAA /* Sources */,
+				893040D01A94DD6300F3BBAA /* Frameworks */,
+				893040D11A94DD6300F3BBAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893040D51A94DD6300F3BBAA /* PBXTargetDependency */,
+			);
+			name = SimGamblingTests;
+			productName = SimGamblingTests;
+			productReference = 893040D31A94DD6300F3BBAA /* SimGamblingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893040B51A94DD6300F3BBAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Xia Summer";
+				TargetAttributes = {
+					893040BC1A94DD6300F3BBAA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					893040D21A94DD6300F3BBAA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 893040BC1A94DD6300F3BBAA;
+					};
+				};
+			};
+			buildConfigurationList = 893040B81A94DD6300F3BBAA /* Build configuration list for PBXProject "SimGambling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893040B41A94DD6300F3BBAA;
+			productRefGroup = 893040BE1A94DD6300F3BBAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893040BC1A94DD6300F3BBAA /* SimGambling */,
+				893040D21A94DD6300F3BBAA /* SimGamblingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893040BB1A94DD6300F3BBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893040CB1A94DD6300F3BBAA /* Images.xcassets in Resources */,
+				893040CE1A94DD6300F3BBAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893040D11A94DD6300F3BBAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893040B91A94DD6300F3BBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A594A31A98B7C5002C1D97 /* PNLineChart.m in Sources */,
+				89A594A01A98B7C5002C1D97 /* PNChartLabel.m in Sources */,
+				89A594A21A98B7C5002C1D97 /* PNColor.m in Sources */,
+				89A5949E1A98B7C5002C1D97 /* PNBar.m in Sources */,
+				893040C91A94DD6300F3BBAA /* ViewController.m in Sources */,
+				89A594A51A98B7C5002C1D97 /* PNLineChartDataItem.m in Sources */,
+				89A5949D1A98B7C5002C1D97 /* NSBezierPath+CGPath.m in Sources */,
+				89A594AA1A98B7C5002C1D97 /* PNScatterChartDataItem.m in Sources */,
+				89A594A11A98B7C5002C1D97 /* PNCircleChart.m in Sources */,
+				89A594A71A98B7C5002C1D97 /* PNPieChartDataItem.m in Sources */,
+				893040C61A94DD6300F3BBAA /* main.m in Sources */,
+				89A594A41A98B7C5002C1D97 /* PNLineChartData.m in Sources */,
+				89A594A81A98B7C5002C1D97 /* PNScatterChart.m in Sources */,
+				89A5949F1A98B7C5002C1D97 /* PNBarChart.m in Sources */,
+				89A594A61A98B7C5002C1D97 /* PNPieChart.m in Sources */,
+				893040C41A94DD6300F3BBAA /* AppDelegate.m in Sources */,
+				89A594A91A98B7C5002C1D97 /* PNScatterChartData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893040CF1A94DD6300F3BBAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893040DA1A94DD6300F3BBAA /* SimGamblingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		893040D51A94DD6300F3BBAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 893040BC1A94DD6300F3BBAA /* SimGambling */;
+			targetProxy = 893040D41A94DD6300F3BBAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		893040CC1A94DD6300F3BBAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893040CD1A94DD6300F3BBAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893040DB1A94DD6300F3BBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		893040DC1A94DD6300F3BBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		893040DE1A94DD6300F3BBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimGambling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		893040DF1A94DD6300F3BBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimGambling/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		893040E11A94DD6300F3BBAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimGamblingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimGambling.app/Contents/MacOS/SimGambling";
+			};
+			name = Debug;
+		};
+		893040E21A94DD6300F3BBAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimGamblingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimGambling.app/Contents/MacOS/SimGambling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893040B81A94DD6300F3BBAA /* Build configuration list for PBXProject "SimGambling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893040DB1A94DD6300F3BBAA /* Debug */,
+				893040DC1A94DD6300F3BBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893040DD1A94DD6300F3BBAA /* Build configuration list for PBXNativeTarget "SimGambling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893040DE1A94DD6300F3BBAA /* Debug */,
+				893040DF1A94DD6300F3BBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893040E01A94DD6300F3BBAA /* Build configuration list for PBXNativeTarget "SimGamblingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893040E11A94DD6300F3BBAA /* Debug */,
+				893040E21A94DD6300F3BBAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 893040B51A94DD6300F3BBAA /* Project object */;
+}
